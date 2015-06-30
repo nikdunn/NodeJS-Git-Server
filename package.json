@@ -16,7 +16,8 @@
     "event-proxy": "0.0.1",
     "git-emit": "0.0.0",
     "mkdirp": "*",
-    "pushover": "git://git@github.com/nikdunn/pushover.git"
+    "pushover": "git://git@github.com/nikdunn/pushover.git",
+    "fs-extra": "~0.20.1"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
