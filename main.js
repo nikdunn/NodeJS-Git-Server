@@ -7,7 +7,6 @@ module.exports = function(options) {
 		repoLocation = (options.repoLocation) ? options.repoLocation : '/tmp/repos';
 		port = (options.port) ? options.port : 7000;
 		certs = (options.certs) ? options.certs : null;
-		http_api = (options.httpApi) ? options.httpApi : false;
-		return new server(options.repos, logging, repoLocation, port, certs, http_api);
+		return new server(options.repos, logging, repoLocation, port, certs);
 	}
 }

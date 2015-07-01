@@ -12,7 +12,6 @@
     "cli-listener": "*",
     "cli-table": "*",
     "commander": "*",
-    "connect": "~2.9.0",
     "event-proxy": "0.0.1",
     "git-emit": "0.0.0",
     "mkdirp": "*",
